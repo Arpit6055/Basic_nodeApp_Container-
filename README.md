@@ -1,2 +1,19 @@
 # Basic_nodeApp_Container-
-Creating a basic NodeJS application and containerizing it.
+
+you first need to install [Docker](https://www.docker.com/products/docker-desktop)
+
+## Installation
+
+Download the code source and open your terminal and open the Basic_nodeApp_Container- directory 
+
+## Usage
+
+```python
+docker build -t my-node-app .
+docker run --init --publish 3000:3000 my-node-app
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
